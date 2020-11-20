@@ -2,9 +2,16 @@
 
 .POPOSSpace {
 	width: 100%;
-	text-align: center;
+	text-align: right;
 }
 .POPOSSpace > img {
 	width: 100%;
 	height: auto;
+}
+.POPOSSpace h3 {
+	margin-bottom: 0.5em;
+}
+
+.POPOSSpace div {
+	font-style: italic;
 }

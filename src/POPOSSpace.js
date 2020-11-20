@@ -1,10 +1,11 @@
 // src/Project.js
-
+import LikeButton from './LikeButton';
 import React from 'react'
 import './POPOSSpace.css';
 
 function POPOSSpace(props) {
-  const { name, image, address } = props
+  const { name, image, address, hours } = props
+  let like_count = 0;
   return (
     <div className="POPOSSpace">
       <img src={`${process.env.PUBLIC_URL}images/${image}`}     
@@ -12,8 +13,10 @@ function POPOSSpace(props) {
         height="300" 
         alt='{name}'
       />
-      <h1>{name}</h1>
+      <h3>{name}</h3>
       <div>{address}</div>
+      <div className="hours">{hours}</div>
+      <LikeButton  count={like_count}/>
     </div>
   )
 }

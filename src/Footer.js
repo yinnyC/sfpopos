@@ -4,9 +4,10 @@ import React from 'react';
 import './Footer.css';
 
 function Footer(){
+  const year = new Date();
   return(
     <footer className="Footer">
-      <p>Yin Chang copyright 2020</p>
+      <p>Yin Chang copyright {year.getFullYear()}</p>
     </footer>
     
   )
