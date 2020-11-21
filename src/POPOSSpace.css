@@ -2,7 +2,6 @@
 
 .POPOSSpace {
 	width: 100%;
-	text-align: right;
 }
 .POPOSSpace > img {
 	width: 100%;
@@ -14,4 +13,13 @@
 
 .POPOSSpace div {
 	font-style: italic;
+}
+
+.POPOSSpace button {
+	margin-top: 1em;
+	border: none;
+	border-radius: 8px;
+	padding: 0.5em 1em;
+	background-color: rgb(192, 45, 26);
+	color: #fff;
 }
