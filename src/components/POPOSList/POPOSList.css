@@ -1,9 +1,22 @@
 /* src/POPOSList.css */
 
 .POPOSList {
-	width: calc(100% - 80px);
-	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 40px;
+	grid-gap: 2em;
+	max-width: 1200px;
+	margin: auto;
+	padding: 2em;
+}
+/* Smaller screens and tablets */
+@media only screen and (max-width: 960px) {
+	.POPOSList {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+/* Small screens mobile */
+@media only screen and (max-width: 700px) {
+	.POPOSList {
+		grid-template-columns: 1fr;
+	}
 }
