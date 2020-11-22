@@ -20,3 +20,29 @@
 		grid-template-columns: 1fr;
 	}
 }
+
+form {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+form input,
+form button {
+	padding: 0.5em;
+	margin: 0;
+	border: 1px solid;
+	font-size: 1;
+}
+
+form input {
+	flex: 1;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+}
+
+form button {
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
