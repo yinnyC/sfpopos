@@ -38,7 +38,6 @@ class Counter extends Component {
     return(
       <button onClick={this.increase_like}>❤ {this.state.count}</button>
     )
-  
   }
 }
 export default POPOSSpace

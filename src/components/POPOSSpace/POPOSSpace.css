@@ -1,5 +1,8 @@
 /* src/POPOSSpace.css */
 
+.POPOSSpace {
+	position: relative;
+}
 .POPOSSpace img {
 	width: 100%;
 	height: auto;
@@ -7,7 +10,7 @@
 
 .POPOSSpace .POPOSSpace-title {
 	display: block;
-	position: relative;
+	position: absolute;
 	text-decoration: none;
 	left: 0;
 	top: 0;
@@ -30,7 +33,7 @@
 	color: #fff;
 }
 .POPOSSpace .POPOSSpace-info {
-	position: relative;
+	position: absolute;
 	right: 0;
 	bottom: 0;
 	text-align: right;
