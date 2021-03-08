@@ -4,5 +4,3 @@ A website where you can check out all the San Francisco Privately Owned Public O
 Built with React js
 
 ![DEMO](./imgs/demo_img.png)
-
-Check out the website here: [link](https://yinnyc.github.io/sfpopos/)
